@@ -33,7 +33,19 @@ https://git-scm.com/doc
 * git **config --global [object]**: Use this command to change gits global configuration.
 * git **rm cached [file or . for all]**: Use this command to remove all cached information.
 ## Note
-To demonstrate how to use all of this commands, we will create a simple website with github.
+To demonstrate how to use all of this commands, we will create a simple website with git and github.
+
+## Creating the site
+
+## Adding more files and directories
+
+## Creating a fork of the site
+
+## Working with Branches
+
+## Merging work
+
+
 ## What is Github?
 GitHub, Inc. is a hosting service for software development and version control using Git. Github provides	all the benefits of Git plus additional features of the Github platform. GitHub offers its basic services free of charge while its more advanced features are commercially available. Some of these features are bug tracking, feature requests, and task management
 
@@ -41,3 +53,4 @@ To join github go to https://github.com/. Once you have created an account you c
 [insert image here]
 
 ## Creating a repository for the website
+click on the + sign located in top right corner and select **"New Repository"**
