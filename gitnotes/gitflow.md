@@ -36,8 +36,29 @@ https://git-scm.com/doc
 To demonstrate how to use all of this commands, we will create a simple website with git and github.
 
 ## Creating the site
+To create the site we use:
+**git init demoSite**
+This command will create a directory and initialize the directory as an empty git repository.
+[image goes here]
+
+Now we can create a couple of files to get started with the HTML. If you are using an IDE like VS Code you can open the terminal from vs code and create the files there. 
+[gif here]
 
 ## Adding more files and directories
+To this website we are going to add a directory for assets and a directory for css. In the terminal, use the mkdir and touch commands to create the directories and files. Then we are going to use the following git commands to commit these changes.
+* Use the **git add .** command to add all the files to the repo.
+* Use the **git commit -m "added css and assets directories"** the -m flag is for message which is required for committing changes.
+**WARNING!!!**
+Make sure to add your name and email address to your git installation. Otherwise git will complain about  it.
+Use the commands:
+* git config --global user.name github username here
+* git config --global user.email github email here
+If you do not have a github account, now is a good time to create one.
+[image here]
+
+## Adding changes and committing
+Now lets add some content and practice some commits. Since this is a dummy site, I added dummy content using VS Code lorem ipsum generator extention.
+
 
 ## Creating a fork of the site
 
