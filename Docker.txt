@@ -1,0 +1,8 @@
+Docker
+
+Docker is a tool designed to benefit both developers and system administrators, making it a part of many DevOps toolchains.
+The point of docker is to run software services or application environments inside of containers. Running server software such as Nginx or Apache can be running inside of containers that are separate from the local machine’s environment.
+Docker is not a virtual machine; it is a containerized application.
+Containerized applications are isolated in a way that they do not bundle in a copy of the operating system it sits on.
+Containers encapsulate an application as a single executable package of software that bundles
+application code together with all of the related configuration files, libraries, and dependencies necessary for it to run.
