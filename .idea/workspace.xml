@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="Adding Docker Information">
       <change beforePath="$PROJECT_DIR$/Docker/docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/docker.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600536329213</updated>
-      <workItem from="1600536330356" duration="13347000" />
+      <workItem from="1600536330356" duration="13656000" />
     </task>
     <task id="LOCAL-00001" summary="Added contact information">
       <created>1600536398334</created>
@@ -97,10 +96,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adding Docker Information" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1527" y="29" key="CommitChangelistDialog2" timestamp="1600566537452">
+    <state x="1527" y="29" key="CommitChangelistDialog2" timestamp="1600567498776">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1527" y="29" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600566537452" />
+    <state x="1527" y="29" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600567498776" />
     <state x="1508" y="282" key="IDE.errors.dialog" timestamp="1600538322237">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
