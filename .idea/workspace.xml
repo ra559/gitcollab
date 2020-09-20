@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="Adding Docker Information">
+    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker/docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/docker.md" afterDir="false" />
     </list>
@@ -47,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600536329213</updated>
-      <workItem from="1600536330356" duration="12647000" />
+      <workItem from="1600536330356" duration="13347000" />
     </task>
     <task id="LOCAL-00001" summary="Added contact information">
       <created>1600536398334</created>
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600564501163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Docker Information">
+      <created>1600566537703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600566537703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,18 +97,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adding Docker Information" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1527" y="29" key="CommitChangelistDialog2" timestamp="1600564599043">
+    <state x="1527" y="29" key="CommitChangelistDialog2" timestamp="1600566537452">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1527" y="29" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600564599043" />
+    <state x="1527" y="29" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600566537452" />
     <state x="1508" y="282" key="IDE.errors.dialog" timestamp="1600538322237">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1508" y="282" key="IDE.errors.dialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600538322237" />
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600564607995">
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600566539044">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600564607995" />
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600566539044" />
     <state x="1731" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600556377728">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>

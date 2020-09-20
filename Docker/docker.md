@@ -30,7 +30,6 @@ Docker is an open platform for developing, shipping, and running applications. M
      CentOs
  
         1. sudo yum install -y yum-utils
-
         2. sudo yum-config-manager \
           --add-repo \
           https://download.docker.com/linux/centos/docker-ce.repo
@@ -38,7 +37,6 @@ Docker is an open platform for developing, shipping, and running applications. M
      Debian & Raspbian 
 
         1. sudo apt-get update 
-
         2. sudo apt-get install \
               apt-transport-https \
               ca-certificates \
@@ -47,17 +45,29 @@ Docker is an open platform for developing, shipping, and running applications. M
               software-properties-common
     
      Fedora
+
         1. sudo dnf -y install dnf-plugins-core
         2. sudo dnf config-manager \
               --add-repo \
               https://download.docker.com/linux/fedora/docker-ce.repo
     
-   * Ubuntu
-   
-      * sudo apt-get update
-      * sudo apt-get install \
+     Ubuntu
+    
+      1. sudo apt-get update
+      2. * sudo apt-get install \
            apt-transport-https \
            ca-certificates \
            curl \
            gnupg-agent \
            software-properties-common
+      
+         * curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+         * apt-key fingerprint 0EBFCD88
+
+      3. sudo add-apt-repository \
+            "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+            $(lsb_release -cs) \
+            stable"
+
+```
