@@ -48,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600536329213</updated>
-      <workItem from="1600536330356" duration="10384000" />
+      <workItem from="1600536330356" duration="10755000" />
     </task>
     <task id="LOCAL-00001" summary="Added contact information">
       <created>1600536398334</created>
@@ -92,10 +92,10 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1508" y="282" key="IDE.errors.dialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600538322237" />
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600541310647">
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600564359092">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600541310647" />
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600564359092" />
     <state x="1731" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600556377728">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
