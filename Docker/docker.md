@@ -11,7 +11,7 @@ Docker is an open platform for developing, shipping, and running applications. M
  ## Note: 
  Nothing beats reading the manual. So if you want to, Docker documentation can be found here: https://docs.docker.com/get-started/overview/
  
- ##Installing Docker 
+ ## Installing Docker 
  * Windows: 
     * Download from here: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
     
