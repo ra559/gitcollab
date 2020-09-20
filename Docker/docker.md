@@ -163,7 +163,7 @@ $ docker container rm [ID]
 $ docker container rm [ID] [ID] [ID]
 ```
 
-### Remove All Containers
+### Removes All Containers
 
 ```
 $ docker rm $(docker ps -aq)
