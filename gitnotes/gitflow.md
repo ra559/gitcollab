@@ -57,14 +57,41 @@ If you do not have a github account, now is a good time to create one.
 [image here]
 
 ## Adding changes and committing
-Now lets add some content and practice some commits. Since this is a dummy site, I added dummy content using VS Code lorem ipsum generator extention.
+Now lets add some content and practice some commits. Since this is a dummy site, I added dummy content using VS Code lorem ipsum generator extension.
+To commit these changes use:
+* git add . 
+* git commit -m "added more content"
 
+At this point it is a good idea to check on the status of our git repo. We do this we the command:
+* git status
+
+[image here]
+
+Now lets add a little css to the styles file, add the changes but instead of committing let's see what the status command outputs. As you can see bellow, when changes are made the status command shows what is pending for committing.
 
 ## Creating a fork of the site
+Sometimes developers need the entire repository for experimentation, use it as a base for another project, or fixing a bug. In this cases, developers can fork the repository and work on it independently of the original repository. If the developer fixed a bug they can then submit a pull request to have the project owner merge the the changes.
+
+To fork a repository, we use the **git clone** command. Later on we will see an example of how to use the git clone command.
 
 ## Working with Branches
+Let's assume that our dummy website requires a separate page and you have assigned the development of this page to another team member. The best way to work on this page is by creating a branch. A branch is separate from the master and as such the changes made to the branch will not affect the master until a merge is done. To create a branch use the command:
+**git branch formpage**
+This command will create a branch but it will not switch your working environment to such branch. For that we use the command:
+**git checkout formpage**.
+### Tip:
+You can use the command **git checkout -b formpage** to create a branch and switch to that branch at the same time.
+[image here]
+
+To change between branches use the checkout command.
+* git checkout master
+* git checktout formpage
+[gif here]
 
 ## Merging work
+To merge work means to combine a particular branch with the master branch. For example, to merge the formpage branch to the master branch first change to master branch and then use the command:
+* git merge formpage
+[insert image here]
 
 
 ## What is Github?
@@ -72,6 +99,7 @@ GitHub, Inc. is a hosting service for software development and version control u
 
 To join github go to https://github.com/. Once you have created an account you can create a repository directly in Github and start working.
 [insert image here]
+
 
 ## Creating a repository for the website
 click on the + sign located in top right corner and select **"New Repository"**
