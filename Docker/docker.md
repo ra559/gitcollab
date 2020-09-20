@@ -18,6 +18,7 @@ Docker is an open platform for developing, shipping, and running applications. M
  * Windows: 
  ```
     Download from here: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+
 ```  
   * Mac: 
 ```
@@ -71,4 +72,101 @@ Docker is an open platform for developing, shipping, and running applications. M
             stable"
 
 ```
+
+# Basic Docker Commands 
+
+
+### Show Commands & Mnagement Commands
+
+```
+$ docker
+```
+
+### Docker Version Information
+
+```
+$ docker version
+```
+
+### Show Information (i.e Number of Containers, etc.)
+
+```
+$ docker info
+```
+
+### List Running Containers
+
+```
+$ docker container ls
+```
+
+OR
+
+```
+$ docker ps
+```
+
+# WORKING WITH CONTAINERS
+
+### Create And Run A Container In Local Enviroment
+
+```
+$ docker container run -it -p 80:80 nginx
+```
+
+### Create And Run A Container In Background
+
+```
+$ docker container run -d -p 80:80 nginx
+```
+
+### Shorthand
+
+```
+$ docker container run -d -p 80:80 nginx
+```
+
+### Naming Containers
+
+```
+$ docker container run --name nameOfServer
+```
+
+
+### List All Containers (Even If Not Running)
+
+```
+$ docker container ls -a
+```
+
+### Stop Container
+
+```
+$ docker container stop [ID]
+```
+
+### Stop All Running Containers
+
+```
+$ docker stop $(docker ps -aq)
+```
+
+### Remove Container (Running Containers Must Be Stopped Before Removal)
+
+```
+$ docker container rm [ID]
+```
+
+### Remove Multiple Containers
+
+```
+$ docker container rm [ID] [ID] [ID]
+```
+
+### Remove All Containers
+
+```
+$ docker rm $(docker ps -aq)
+```
+
 
