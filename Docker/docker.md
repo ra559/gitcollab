@@ -151,13 +151,13 @@ $ docker container stop [ID]
 $ docker stop $(docker ps -aq)
 ```
 
-### Remove Container (Running Containers Must Be Stopped Before Removal)
+### Removes Container (Running Containers Must Be Stopped Before Removal)
 
 ```
 $ docker container rm [ID]
 ```
 
-### Remove Multiple Containers
+### Removes Multiple Containers
 
 ```
 $ docker container rm [ID] [ID] [ID]
