@@ -36,7 +36,6 @@ Docker is an open platform for developing, shipping, and running applications. M
     
     * Fedora
         * sudo dnf -y install dnf-plugins-core
-          
         * sudo dnf config-manager \
               --add-repo \
               https://download.docker.com/linux/fedora/docker-ce.repo
