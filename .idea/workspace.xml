@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="" />
+    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Docker.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers-vs-virtual-machines.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Docker/docker.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1hjtSWo4bLWp1rrhqrfAqSCoElq" />
   <component name="ProjectViewState">
@@ -28,6 +35,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Docker" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600536329213</updated>
-      <workItem from="1600536330356" duration="3665000" />
+      <workItem from="1600536330356" duration="10384000" />
     </task>
     <task id="LOCAL-00001" summary="Added contact information">
       <created>1600536398334</created>
@@ -52,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600536603966</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding Docker Information">
+      <created>1600541297926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600541297926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,20 +80,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added contact information" />
     <MESSAGE value="Adding Github Cheatsheet and Markdown Syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Github Cheatsheet and Markdown Syntax" />
+    <MESSAGE value="Adding Docker Information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Docker Information" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1527" y="29" key="CommitChangelistDialog2" timestamp="1600536603826">
+    <state x="1527" y="29" key="CommitChangelistDialog2" timestamp="1600541297751">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1527" y="29" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600536603826" />
+    <state x="1527" y="29" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600541297751" />
     <state x="1508" y="282" key="IDE.errors.dialog" timestamp="1600538322237">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1508" y="282" key="IDE.errors.dialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600538322237" />
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600537931794">
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600541310647">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600537931794" />
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600541310647" />
+    <state x="1731" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600556377728">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1731" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600556377728" />
   </component>
 </project>
