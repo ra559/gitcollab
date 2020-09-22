@@ -94,7 +94,13 @@ To merge work means to combine a particular branch with the master branch. For e
 [insert image here]
 
 
-## What is Github?
+
+# What is Github?
+**_Note:_** In this section we will be using the commands:
+* git pull
+* git push
+* git remote Add/Remove/Show
+
 GitHub, Inc. is a hosting service for software development and version control using Git. Github provides	all the benefits of Git plus additional features of the Github platform. GitHub offers its basic services free of charge while its more advanced features are commercially available. Some of these features are bug tracking, feature requests, and task management
 
 To join github go to https://github.com/. Once you have created an account you can create a repository directly in Github and start working.
@@ -102,4 +108,18 @@ To join github go to https://github.com/. Once you have created an account you c
 
 
 ## Creating a repository for the website
-click on the + sign located in top right corner and select **"New Repository"**
+click on the + sign located in top right corner and select **"New Repository"**. Now, to push our git repository of the dummysite to Github, we use the git remote commands: 
+* git remote add origin https://github.com/robertalberto350/dummysite.git
+* get branch -M master
+* get push -u origin master
+
+**_NOTE_**
+Make sure to either setup SSH keys or set up vs code github extension. Or ignore this if you rather enter your username and password in every push 
+* To setup SSH keys see these links:
+  * https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+  * https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+* To setup SSH in VS Code see this link:
+  * https://code.visualstudio.com/docs/editor/github
+
+
+
