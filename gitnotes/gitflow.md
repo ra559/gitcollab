@@ -87,7 +87,7 @@ You can use the command **git checkout -b formpage** to create a branch and swit
 To change between branches use the checkout command.
 * git checkout master
 * git checktout formpage
-![git checkout and git branch](https://github.com/ra559/gitcollabblob/gitnotes/images/git_checkout.gif)
+![git checkout and git branch](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_checkout.gif)
 
 ## Merging work
 To merge work means to combine a particular branch with the master branch. For example, to merge the formpage branch to the master branch first change to master branch and then use the command:
