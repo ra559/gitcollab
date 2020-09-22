@@ -106,7 +106,7 @@ To merge work means to combine a particular branch with the master branch. For e
 GitHub, Inc. is a hosting service for software development and version control using Git. Github provides	all the benefits of Git plus additional features of the Github platform. GitHub offers its basic services free of charge while its more advanced features are commercially available. Some of these features are bug tracking, feature requests, and task management
 
 To join github go to https://github.com/. Once you have created an account you can create a repository directly in Github and start working.
-[insert image here]
+
 
 
 ## Creating a repository for the website
