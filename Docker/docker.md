@@ -1,5 +1,5 @@
 ![Markdown Logo](DockerLogo.png)
-# What is Docker ? 
+# What Is Docker ? 
 
 Docker is an open platform for developing, shipping, and running applications. Meaning that developers or system adminstrators are able to: 
 
@@ -168,5 +168,7 @@ $ docker container rm [ID] [ID] [ID]
 ```
 $ docker rm $(docker ps -aq)
 ```
+
+
 
 
