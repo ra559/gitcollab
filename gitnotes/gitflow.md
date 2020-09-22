@@ -108,7 +108,7 @@ click on the + sign located in top right corner and select **"New Repository"**.
 * git remote add origin https://github.com/robertalberto350/dummysite.git
 * get branch -M master
 * get push -u origin master
-
+![git remote command](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_remote.png)
 **_NOTE_**
 Make sure to either setup SSH keys or set up vs code github extension. Or ignore this if you rather enter your username and password in every push 
 * To setup SSH keys see these links:
@@ -116,3 +116,10 @@ Make sure to either setup SSH keys or set up vs code github extension. Or ignore
   * https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 * To setup SSH in VS Code see this link:
   * https://code.visualstudio.com/docs/editor/github
+
+To fetch and merge any commits from the tracking remote branch, we use the **git pull** command. In our case everything is up to date but if there were other developers working on the site, the pull command would fetch and then merge the changes.
+
+![git pull command](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_pull.png)
+
+To send our changes to the local repsi
+tory to the github repository we use the **git push** command
