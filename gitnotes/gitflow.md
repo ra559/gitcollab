@@ -42,7 +42,7 @@ This command will create a directory and initialize the directory as an empty gi
 ![git init command](https://github.com/ra559/gitcollab/blob/gitnotes/images/gitInitDemosite.png)
 
 Now we can create a couple of files to get started with the HTML. If you are using an IDE like VS Code you can open the terminal from vs code and create the files there. 
-[gif here]
+![adding folder to vs code](https://github.com/ra559/gitcollab/blob/gitnotes/images/adding_folder_to_vs_code.gif)
 
 ## Adding more files and directories
 To this website we are going to add a directory for assets and a directory for css. In the terminal, use the mkdir and touch commands to create the directories and files. Then we are going to use the following git commands to commit these changes.
@@ -54,20 +54,19 @@ Use the commands:
 * git config --global user.name github username here
 * git config --global user.email github email here
 If you do not have a github account, now is a good time to create one.
-[image here]
-
+![git no name error](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_no_name_error.png)
 ## Adding changes and committing
 Now lets add some content and practice some commits. Since this is a dummy site, I added dummy content using VS Code lorem ipsum generator extension.
 To commit these changes use:
 * git add . 
 * git commit -m "added more content"
+![git commit](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_commit.png)
 
 At this point it is a good idea to check on the status of our git repo. We do this we the command:
 * git status
 
-[image here]
-
 Now lets add a little css to the styles file, add the changes but instead of committing let's see what the status command outputs. As you can see bellow, when changes are made the status command shows what is pending for committing.
+![git status](https://github.com/ra559/gitcollabblob/gitnotes/images/git_status.png)
 
 ## Creating a fork of the site
 Sometimes developers need the entire repository for experimentation, use it as a base for another project, or fixing a bug. In this cases, developers can fork the repository and work on it independently of the original repository. If the developer fixed a bug they can then submit a pull request to have the project owner merge the the changes.
@@ -76,24 +75,26 @@ To fork a repository, we use the **git clone** command. Later on we will see an 
 
 ## Working with Branches
 Let's assume that our dummy website requires a separate page and you have assigned the development of this page to another team member. The best way to work on this page is by creating a branch. A branch is separate from the master and as such the changes made to the branch will not affect the master until a merge is done. To create a branch use the command:
-**git branch formpage**
+* **git branch formpage**
+![git checkout and git branch](htts://github.com/ra559/gitcollabblob/gitnotes/images/git_branch.png)
+ 
 This command will create a branch but it will not switch your working environment to such branch. For that we use the command:
-**git checkout formpage**.
+* **git checkout formpage**
 ### Tip:
 You can use the command **git checkout -b formpage** to create a branch and switch to that branch at the same time.
-[image here]
 
 To change between branches use the checkout command.
 * git checkout master
 * git checktout formpage
-[gif here]
+![git checkout and git branch](htts://github.com/ra559/gitcollabblob/gitnotes/images/git_checkout.gif)
 
 ## Merging work
 To merge work means to combine a particular branch with the master branch. For example, to merge the formpage branch to the master branch first change to master branch and then use the command:
-* git merge formpage
+* **git merge formpage**
 [insert image here]
 
 
+![git checkout and git branch](htts://github.com/ra559/gitcollabblob/gitnotes/images/git_merge.png)
 
 # What is Github?
 **_Note:_** In this section we will be using the commands:
