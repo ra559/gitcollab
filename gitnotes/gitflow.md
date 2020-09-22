@@ -75,8 +75,7 @@ To fork a repository, we use the **git clone** command. Later on we will see an 
 
 ## Working with Branches
 Let's assume that our dummy website requires a separate page and you have assigned the development of this page to another team member. The best way to work on this page is by creating a branch. A branch is separate from the master and as such the changes made to the branch will not affect the master until a merge is done. To create a branch use the command:
-* **git branch formpage**
-
+* **git branch formpage** 
 ![git checkout and git branch](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_branch.png)
  
 This command will create a branch but it will not switch your working environment to such branch. For that we use the command:
@@ -92,11 +91,8 @@ To change between branches use the checkout command.
 ## Merging work
 To merge work means to combine a particular branch with the master branch. For example, to merge the formpage branch to the master branch first change to master branch and then use the command:
 * **git merge formpage**
-[insert image here]
-
 
 ![git checkout and git branch](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_merge.png)
-
 # What is Github?
 **_Note:_** In this section we will be using the commands:
 * git pull
@@ -106,8 +102,6 @@ To merge work means to combine a particular branch with the master branch. For e
 GitHub, Inc. is a hosting service for software development and version control using Git. Github provides	all the benefits of Git plus additional features of the Github platform. GitHub offers its basic services free of charge while its more advanced features are commercially available. Some of these features are bug tracking, feature requests, and task management
 
 To join github go to https://github.com/. Once you have created an account you can create a repository directly in Github and start working.
-
-
 
 ## Creating a repository for the website
 click on the + sign located in top right corner and select **"New Repository"**. Now, to push our git repository of the dummysite to Github, we use the git remote commands: 
@@ -122,6 +116,3 @@ Make sure to either setup SSH keys or set up vs code github extension. Or ignore
   * https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 * To setup SSH in VS Code see this link:
   * https://code.visualstudio.com/docs/editor/github
-
-
-
