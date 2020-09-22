@@ -66,7 +66,7 @@ At this point it is a good idea to check on the status of our git repo. We do th
 * git status
 
 Now lets add a little css to the styles file, add the changes but instead of committing let's see what the status command outputs. As you can see bellow, when changes are made the status command shows what is pending for committing.
-![git status](https://github.com/ra559/gitcollabblob/gitnotes/images/git_status.png)
+![git status](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_status.png)
 
 ## Creating a fork of the site
 Sometimes developers need the entire repository for experimentation, use it as a base for another project, or fixing a bug. In this cases, developers can fork the repository and work on it independently of the original repository. If the developer fixed a bug they can then submit a pull request to have the project owner merge the the changes.
@@ -76,7 +76,8 @@ To fork a repository, we use the **git clone** command. Later on we will see an 
 ## Working with Branches
 Let's assume that our dummy website requires a separate page and you have assigned the development of this page to another team member. The best way to work on this page is by creating a branch. A branch is separate from the master and as such the changes made to the branch will not affect the master until a merge is done. To create a branch use the command:
 * **git branch formpage**
-![git checkout and git branch](https://github.com/ra559/gitcollabblob/gitnotes/images/git_branch.png)
+
+![git checkout and git branch](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_branch.png)
  
 This command will create a branch but it will not switch your working environment to such branch. For that we use the command:
 * **git checkout formpage**
@@ -94,7 +95,7 @@ To merge work means to combine a particular branch with the master branch. For e
 [insert image here]
 
 
-![git checkout and git branch](https://github.com/ra559/gitcollabblob/gitnotes/images/git_merge.png)
+![git checkout and git branch](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_merge.png)
 
 # What is Github?
 **_Note:_** In this section we will be using the commands:
