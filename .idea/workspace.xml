@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="Adding Docker Information" />
+    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600536329213</updated>
-      <workItem from="1600536330356" duration="18104000" />
+      <workItem from="1600536330356" duration="19962000" />
     </task>
     <task id="LOCAL-00001" summary="Added contact information">
       <created>1600536398334</created>
@@ -88,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600567618669</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feature:  Added Docker Commands&#10;&#10;Fix: Updated MD File Formatting &#10;&#10;Task: Upload Docker Logo Image And Update MD File">
+      <created>1600573406067</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600573406067</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feature:  Added Docker Commands&#10;&#10;Fix: Updated Spelling In Commands List &#10;&#10;Task: Upload Docker Logo Image And Update MD File">
+      <created>1600573474444</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600573474445</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,21 +114,23 @@
     <MESSAGE value="Added contact information" />
     <MESSAGE value="Adding Github Cheatsheet and Markdown Syntax" />
     <MESSAGE value="Adding Docker Information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Docker Information" />
+    <MESSAGE value="Feature:  Added Docker Commands&#10;&#10;Fix: Updated MD File Formatting &#10;&#10;Task: Upload Docker Logo Image And Update MD File" />
+    <MESSAGE value="Feature:  Added Docker Commands&#10;&#10;Fix: Updated Spelling In Commands List &#10;&#10;Task: Upload Docker Logo Image And Update MD File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature:  Added Docker Commands&#10;&#10;Fix: Updated Spelling In Commands List &#10;&#10;Task: Upload Docker Logo Image And Update MD File" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1527" y="29" key="CommitChangelistDialog2" timestamp="1600572701585">
+    <state x="1527" y="0" key="CommitChangelistDialog2" timestamp="1600573474320">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1527" y="29" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600572701585" />
+    <state x="1527" y="0" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600573474320" />
     <state x="1508" y="282" key="IDE.errors.dialog" timestamp="1600538322237">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1508" y="282" key="IDE.errors.dialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600538322237" />
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600572709515">
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2" timestamp="1600573481915">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600572709515" />
+    <state x="1520" y="261" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600573481915" />
     <state x="1731" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600556377728">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
