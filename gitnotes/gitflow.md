@@ -39,7 +39,7 @@ To demonstrate how to use all of this commands, we will create a simple website 
 To create the site we use:
 **git init demoSite**
 This command will create a directory and initialize the directory as an empty git repository.
-[image goes here]
+![git init command](https://github.com/ra559/gitcollab/blob/gitnotes/images/gitInitDemosite.png)
 
 Now we can create a couple of files to get started with the HTML. If you are using an IDE like VS Code you can open the terminal from vs code and create the files there. 
 [gif here]
