@@ -76,7 +76,7 @@ To fork a repository, we use the **git clone** command. Later on we will see an 
 ## Working with Branches
 Let's assume that our dummy website requires a separate page and you have assigned the development of this page to another team member. The best way to work on this page is by creating a branch. A branch is separate from the master and as such the changes made to the branch will not affect the master until a merge is done. To create a branch use the command:
 * **git branch formpage**
-![git checkout and git branch](htts://github.com/ra559/gitcollabblob/gitnotes/images/git_branch.png)
+![git checkout and git branch](https://github.com/ra559/gitcollabblob/gitnotes/images/git_branch.png)
  
 This command will create a branch but it will not switch your working environment to such branch. For that we use the command:
 * **git checkout formpage**
@@ -86,7 +86,7 @@ You can use the command **git checkout -b formpage** to create a branch and swit
 To change between branches use the checkout command.
 * git checkout master
 * git checktout formpage
-![git checkout and git branch](htts://github.com/ra559/gitcollabblob/gitnotes/images/git_checkout.gif)
+![git checkout and git branch](https://github.com/ra559/gitcollabblob/gitnotes/images/git_checkout.gif)
 
 ## Merging work
 To merge work means to combine a particular branch with the master branch. For example, to merge the formpage branch to the master branch first change to master branch and then use the command:
@@ -94,7 +94,7 @@ To merge work means to combine a particular branch with the master branch. For e
 [insert image here]
 
 
-![git checkout and git branch](htts://github.com/ra559/gitcollabblob/gitnotes/images/git_merge.png)
+![git checkout and git branch](https://github.com/ra559/gitcollabblob/gitnotes/images/git_merge.png)
 
 # What is Github?
 **_Note:_** In this section we will be using the commands:
