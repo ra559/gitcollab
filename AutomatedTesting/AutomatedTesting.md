@@ -19,8 +19,6 @@ manual testing all together. For a developer automated testing is important due 
 
 * Manual testing can become boring and lead to errors in work
 
-![WorkAutomation](get-to-work.gif)
-
 
 ## When are you likely to use automation ? 
 
