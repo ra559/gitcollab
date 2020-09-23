@@ -7,7 +7,7 @@ and other testing tasks which are difficult to perform manually.
 
 ## Why Automation ? 
 The goal of automation is to reduce the number of test cases to be run manually and not eliminate 
-manual testing all together. For a developer automated testing is important due to these reasons: 
+manual testing all together. For a developer automated testing is important due to these reasons : 
 
 * Manual testing of all work flows, fields and negative scenarios is time and cost consuming
 
