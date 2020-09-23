@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="">
+    <list default="true" id="9475d8be-028f-4545-b3f1-9b68da2fe709" name="Default Changelist" comment="Feature:  Automated Testing MD File&#10;Task: Add Automated Testing Documentation&#10;Result: Removed images from AutomatedTesting directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
         <entry key="$PROJECT_DIR$" value="Docker" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/myapp" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -50,7 +50,7 @@
       <updated>1600536329213</updated>
       <workItem from="1600536330356" duration="19962000" />
       <workItem from="1600790126571" duration="598000" />
-      <workItem from="1600804677719" duration="3566000" />
+      <workItem from="1600804677719" duration="4359000" />
     </task>
     <task id="LOCAL-00001" summary="Added contact information">
       <created>1600536398334</created>
@@ -129,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600818494684</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Feature:  Automated Testing MD File&#10;Task: Add Automated Testing Documentation&#10;Result: Added Images and explanations about automation testing">
+      <created>1600819242522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600819242523</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feature:  Automated Testing MD File&#10;Task: Add Automated Testing Documentation&#10;Result: Added Images and explanations about automation testing">
+      <created>1600819307154</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600819307154</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,21 +157,26 @@
     <MESSAGE value="Feature:  Added Docker Commands&#10;&#10;Fix: Updated Spelling In Commands List &#10;&#10;Task: Upload Docker Logo Image And Update MD File" />
     <MESSAGE value="Feature:  Added Docker Commands&#10;&#10;Fix: Updated Docker md Formatting&#10;&#10;Task: Merge Docker MD with Master" />
     <MESSAGE value="Feature:  Automated Testing MD File&#10;Task: Add Automated Testing Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature:  Automated Testing MD File&#10;Task: Add Automated Testing Documentation" />
+    <MESSAGE value="Feature:  Automated Testing MD File&#10;Task: Add Automated Testing Documentation&#10;Result: Added Images and explanations about automation testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature:  Automated Testing MD File&#10;Task: Add Automated Testing Documentation&#10;Result: Added Images and explanations about automation testing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="986" y="0" width="1326" height="1080" key="CommitChangelistDialog2" timestamp="1600818494522">
+    <state x="986" y="0" width="1326" height="1080" key="CommitChangelistDialog2" timestamp="1600819449776">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="986" y="0" width="1326" height="1080" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600818494522" />
+    <state x="986" y="0" width="1326" height="1080" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1600819449776" />
+    <state x="1408" y="464" key="Github.CreateGistDialog" timestamp="1600819553306">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1408" y="464" key="Github.CreateGistDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600819553306" />
     <state x="1508" y="282" key="IDE.errors.dialog" timestamp="1600538322237">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1508" y="282" key="IDE.errors.dialog/0.0.2560.1080@0.0.2560.1080" timestamp="1600538322237" />
-    <state x="1268" y="227" width="1052" height="591" key="Vcs.Push.Dialog.v2" timestamp="1600819187990">
+    <state x="1268" y="227" width="1052" height="591" key="Vcs.Push.Dialog.v2" timestamp="1600819456256">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1268" y="227" width="1052" height="591" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600819187990" />
+    <state x="1268" y="227" width="1052" height="591" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1600819456256" />
     <state x="1731" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600556377728">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
