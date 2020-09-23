@@ -37,7 +37,9 @@ To demonstrate how to use all of this commands, we will create a simple website 
 
 ## Creating the site
 To create the site we use:
-**git init demoSite**
+```
+$ **git init demoSite**
+```
 This command will create a directory and initialize the directory as an empty git repository.
 ![git init command](https://github.com/ra559/gitcollab/blob/gitnotes/images/gitInitDemosite.png)
 
@@ -51,15 +53,19 @@ To this website we are going to add a directory for assets and a directory for c
 **WARNING!!!**
 Make sure to add your name and email address to your git installation. Otherwise git will complain about  it.
 Use the commands:
+```
 * git config --global user.name github username here
 * git config --global user.email github email here
+```
 If you do not have a github account, now is a good time to create one.
 ![git no name error](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_no_name_error.png)
 ## Adding changes and committing
 Now lets add some content and practice some commits. Since this is a dummy site, I added dummy content using VS Code lorem ipsum generator extension.
 To commit these changes use:
+```
 * git add . 
 * git commit -m "added more content"
+```
 ![git commit](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_commit.png)
 
 At this point it is a good idea to check on the status of our git repo. We do this we the command:
@@ -84,30 +90,36 @@ This command will create a branch but it will not switch your working environmen
 You can use the command **git checkout -b formpage** to create a branch and switch to that branch at the same time.
 
 To change between branches use the checkout command.
-* git checkout master
-* git checktout formpage
+```
+$ * git checkout master
+$ * git checktout formpage
+```
 ![git checkout and git branch](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_checkout.gif)
 
 ## Merging work
 To merge work means to combine a particular branch with the master branch. For example, to merge the formpage branch to the master branch first change to master branch and then use the command:
-* **git merge formpage**
-
+```
+$ * **git merge formpage**
+```
 ![git checkout and git branch](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_merge.png)
 # What is Github?
 **_Note:_** In this section we will be using the commands:
-* git pull
-* git push
-* git remote Add/Remove/Show
-
+```
+$ * git pull
+$ * git push
+$ * git remote Add/Remove/Show
+```
 GitHub, Inc. is a hosting service for software development and version control using Git. Github provides	all the benefits of Git plus additional features of the Github platform. GitHub offers its basic services free of charge while its more advanced features are commercially available. Some of these features are bug tracking, feature requests, and task management
 
 To join github go to https://github.com/. Once you have created an account you can create a repository directly in Github and start working.
 
 ## Creating a repository for the website
 click on the + sign located in top right corner and select **"New Repository"**. Now, to push our git repository of the dummysite to Github, we use the git remote commands: 
-* git remote add origin https://github.com/robertalberto350/dummysite.git
-* get branch -M master
-* get push -u origin master
+```
+$ * git remote add origin https://github.com/robertalberto350/dummysite.git
+$ * get branch -M master
+$ * get push -u origin master
+```
 ![git remote command](https://github.com/ra559/gitcollab/blob/gitnotes/images/git_remote.png)
 **_NOTE_**
 Make sure to either setup SSH keys or set up vs code github extension. Or ignore this if you rather enter your username and password in every push 
