@@ -4,7 +4,7 @@
 Automation testing is a Software testing technique to test and compare the actual outcome with the expected outcome. 
 This can be achieved by writing test scripts or using any automation testing tool. Test automation is used to automate repetitive tasks
 and other testing tasks which are difficult to perform manually.
----
+
 ## Why Automation ? 
 The goal of automation is to reduce the number of test cases to be run manually and not eliminate 
 manual testing all together. For a developer automated testing is important due to these reasons: 
@@ -21,7 +21,7 @@ manual testing all together. For a developer automated testing is important due 
 
 ![WorkAutomation](get-to-work.gif)
 
----
+
 ## When are you likely to use automation ? 
 
 * For test cases that need to be executed repeatedly
@@ -31,7 +31,7 @@ manual testing all together. For a developer automated testing is important due 
 * Test cases that can be time consuming 
 
 * Business critical test cases that are of higher risks 
----
+
 ![Resources](source.gif)
 ### Resources to learn more about automation 
    * https://www.ibm.com/automation
